@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Artest.unity
     guid: 6b79a1764c1b3cb4db559369c697b3e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR_RUN.unity
     guid: 8def272e789d22d4b83ee378633291e0
+  - enabled: 1
+    path: Assets/Scenes/Gallery.unity
+    guid: 36e13ea7afc25254299c15262c860c5d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
