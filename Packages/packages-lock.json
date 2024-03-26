@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.google.ar.core.arfoundation.extensions": {
+      "version": "file:C:/Users/amili/Downloads/arcore-unity-extensions-1.42.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.5",
+        "com.unity.xr.arcore": "4.1.5",
+        "com.unity.xr.arkit": "4.1.5"
+      }
+    },
     "com.unity.addressables": {
       "version": "1.21.18",
       "depth": 1,
