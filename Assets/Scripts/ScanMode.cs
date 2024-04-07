@@ -5,18 +5,17 @@ using UnityEngine.XR.ARFoundation;
 
 public class ScanMode : MonoBehaviour
 {
-    [SerializeField] ARPlaneManager planeManager;
+    [SerializeField] ARFaceManager faceManager;
 
      void OnEnable()
     {
         UIController.ShowUI("Scan");
     }
-
+  //this worls lol
     void Update()
     {
-        if (planeManager.trackables.count > 0)
-        {
+      if(faceManager.trackables.count > 0 ) {
             InteractionController.EnableMode("Main");
-        }
+          }
     }
 }
